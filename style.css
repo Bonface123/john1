@@ -1,0 +1,121 @@
+/* Global Styles */
+body {
+  background-color: #f5f5f5; /* Light gray background */
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; /* Professional and readable font */
+  color: #333; /* Dark text color for better readability */
+}
+
+/* Header Styles */
+header {
+  background-color: #3498db; /* Soft blue header background */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+  color: #fff; /* White header text */
+}
+
+header p {
+  font-size: 18px;
+  color: #bbb; /* Light gray text */
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #2c3e50; /* Dark blue-gray background for navigation */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* White navigation links */
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #3498db; /* Soft blue color on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+h2 {
+  color: #3498db; /* Soft blue color for section headings */
+}
+
+/* Footer Styles */
+  
+  footer {
+    background-color: #2c3e50; /* Dark blue-gray footer background */
+    color: #bbb; /* Light gray footer text */
+    padding: 10px;
+    text-align: center;
+    clear: both; /* Ensure content below footer is not overlapped */
+    position: relative; /* Ensure footer stays at the bottom */
+    bottom: 0;
+    width: 100%;
+  }
+  
+/* Contact Form Styles */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #3498db; /* Soft blue submit button */
+  color: #fff; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+#form-message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 24px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    margin: 5px 0;
+  }
+  main {
+    padding: 10px;
+  }
+}
